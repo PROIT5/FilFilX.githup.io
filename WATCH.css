@@ -18,18 +18,8 @@ font-family:sans-serif
     display: inline;
     color: #e71d36;
 }
- .h1{
-    background-color: #0e1c36;
-    width: 100%;
-    display: flex;
-    z-index:999 ;
-    align-items: center;
-    padding: 10px 680px;
-    text-decoration: none;
-    text-transform: uppercase;
-     
+ 
 
-}
  
 .watch{
     text-decoration: none;
@@ -176,3 +166,51 @@ padding-top: 100px;
 .t :hover{
     color: aliceblue;
 }
+@media (min-width:320px) and (max-width: 480px) {
+    .watch{
+        text-decoration: none;
+        background-color:#e71d36;
+        color:#f9fbf2;
+        border-radius: 8px;
+        font-size: medium;
+        padding: .8em 2em;
+        letter-spacing: .5px;
+        transition:0.7s ease;
+        margin-left:  7%; ;
+        margin-bottom: -10%;
+        position:center;
+      
+    }
+    
+    .pho p{
+    
+        font-size: 1.3em;
+        margin-bottom: 140%;
+ 
+        color: #e71d36;
+    }
+   
+    .sin{
+        text-decoration: none;
+        background-color:#e71d36;
+        color:#f9fbf2;
+        border-radius: 5px;
+        font-size: small;
+        padding: .4em 1em;
+        letter-spacing: 1px;
+        transition:0.7s ease;
+        margin-left:  2%; ;
+        padding-top:10px ;
+        margin-bottom: 87%;
+} 
+.t a {
+    text-decoration: none;
+    color:darkgrey;
+  
+   margin: auto;
+  
+    display:inline-table ;
+    padding-left: 30px;
+
+padding-top: 60px;}
+}   
