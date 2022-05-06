@@ -1,6 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     
-
 *{
     font-family: 'Poppins', sans-serif;
 margin: 0;
@@ -11,7 +11,7 @@ scroll-behavior: smooth;
 
 }
 header {
-    background-color: #2f195f;
+    background-color: #000000;
     width: 100%;
     display: flex;
     z-index:999 ;
@@ -24,7 +24,7 @@ header {
 .navii {
     text-decoration: none;
     font-size: 1.9em ;
-    color:#eaf6ff
+    color: #e71d36;
     
 }
 .navi a{
@@ -39,10 +39,14 @@ header {
 
 
  .navi a{
-     padding-left: 30px;
+     padding:5px;
+   
+     
+    
  }
  .navi a:hover{
-     color: #0f4167
+     background-color: #090f13;
+     color:#e71d36;
  }
  .si a{
      transition: .7s ease;
@@ -877,302 +881,15 @@ transition: .7s ease;}
           margin-left:20px;
       }
 
-      @media (min-width:320px) and (max-width: 480px) {
-        
-        
-        .icons h2{
-            display: flex;
-         justify-content: center;
-            color: #f9fbf2; 
-         font-size: 1.5em;
-            padding-bottom: 10px;
-            margin-bottom: 10px;
-            padding-left: 20px;
-        }
+    .contio{
+        background-color: #b73847;
+        width: 105px;
        
-    
-    .t a {
-        text-decoration: none;
-        color:darkgrey;
-      
-       margin: auto;
-      
-        display:inline-table ;
-        padding-left: 30px;
-    
-    padding-top: 60px;
+        height: 180px;
     }
-    header {
-        background-color: #2f195f;
-        width: 100%;
-        display: flex;
-        z-index:999 ;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px 40px;
-        text-decoration: none;
-        
-    }
-    .navii {
-        text-decoration: none;
-        font-size: 1.7em ;
-        color:#eaf6ff;
-        margin-right:25px;
-    }
-    .navi a{
-        text-decoration: none;
-        color:#fdfffc;
-        width: 100%;
-        transition:0.7s ease;
-        font-size: .01;
-            
-      
-    }
-    
-    
-    
-     .navi a{
-         padding-left: 9px;
-     }  
-     .card1{
-        background-color: #f9fbf2;
-        width: 15.2em;
-        height: 12em;
-        box-shadow:0 5px 25px rgba(1 1 1 /100%);
-        border-radius: 60px;
-        padding: 25px;
-       margin: 10px;
-        transition:0.7s ease;
-     } 
-}.card2{
-    background-color: #f9fbf2;
-    width: 15.2em;
-    height: 12em;
-    box-shadow:0 5px 25px rgba(1 1 1 /100%);
-    border-radius: 60px;
-    padding: 25px;
-   margin: 10px;
-    transition:0.7s ease;
- } 
- .card3{
-    background-color: #f9fbf2;
-    width: 15.2em;
-    height: 12em;
-    box-shadow:0 5px 25px rgba(1 1 1 /100%);
-    border-radius: 60px;
-    padding: 25px;
-   margin: 10px;
-    transition:0.7s ease;
- }
- .animation{
-    background-color: #f9fbf2;
-    width: 17.2em;
-    height: 1em;
-    margin-left: 10px;
-    margin-bottom : 200px;
-   padding-bottom: 50px;
-    border-radius: 30px;
-    
-  
-    transition:0.7s ease;
-} 
-.mystery{
-    background-color: #f9fbf2;
-    width: 17.2em;
-    height: 1em;
-    margin-left: 10px;
-    margin-bottom : 200px;
-   padding-bottom: 50px;
-    border-radius: 30px;
-    
-  
-    transition:0.7s ease;
-    
-
-} 
-.sh{
-    background-color: #f9fbf2;
-    width: 17.2em;
-    height: 1em;
-    margin-left: 10px;
-    margin-bottom : 200px;
-   padding-bottom: 50px;
-    border-radius: 30px;
-    
-  
-    transition:0.7s ease;
-    
-
-} 
-.romance{
-    background-color: #f9fbf2;
-    width: 17.2em;
-    height: 1em;
-    margin-left: 10px;
-    margin-bottom : 200px;
-   padding-bottom: 50px;
-    border-radius: 30px;
-    
-  
-    transition:0.7s ease;
-    
-
-} 
-.action{
-    background-color: #f9fbf2;
-    width: 17.2em;
-    height: 1em;
-    margin-left: 10px;
-    margin-bottom : 200px;
-   padding-bottom: 50px;
-    border-radius: 30px;
-    
-  
-    transition:0.7s ease;
-    
-
-} 
-.horror{
-    background-color: #f9fbf2;
-    width: 17.2em;
-    height: 1em;
-    margin-left: 10px;
-    margin-bottom : 200px;
-   padding-bottom: 50px;
-    border-radius: 30px;
-    
-  
-    transition:0.7s ease;
-    
-
-} 
-.drama{
-    background-color: #f9fbf2;
-    width: 17.2em;
-    height: 1em;
-    margin-left: 10px;
-    margin-bottom : 200px;
-   padding-bottom: 50px;
-    border-radius: 30px;
-    
-  
-    transition:0.7s ease;
-    
-
-} 
-.war{
-    background-color: #f9fbf2;
-    width: 17.2em;
-    height: 1em;
-    margin-left: 10px;
-    margin-bottom : 200px;
-   padding-bottom: 50px;
-    border-radius: 30px;
-    
-  
-    transition:0.7s ease;
-    
-
-} 
-.privacy {
-
-
-    background-color: black;
-    color: #e71d36;
-       width: 100%;
-       display: flex;
-       z-index:999 ;
-       justify-content: space-between;
-       align-items: center;
-       padding: 10px 50px;
-      
-       text-transform: uppercase;
+   .privacy .text{
+       font-family: sans-serif;
+       font-size: 1.5em;
+       padding-top: 60px;
+       margin-top: 70px;
    }
-   .formlogin{
-    width: 100%;
-      margin-right: 3px;
-      margin-right: 1.3px;
-      width:17em;
-      height:28em;
-      background-color:#0f4167;
-      border-radius: 40px;
-      transition: .8s ease;
-            
-      
-      }
-      .formlogin input[type="submit"]{
-        border: none;
-        height: 1.6em;
-        border-radius: 40px;
-        transition: .7s ease;
-    }
-
-    .formlogin2{
-        width: 100%;
-         
-          width:20em;
-          height:40em;
-          background-color:#0f4167;
-          border-radius: 40px;
-          margin-right: 12px;
-         
-          
-          }
-          .formlogin2 input[type="submit"]{
-            border: none;
-            height: .9em;
-            border-radius: 40px;
-            transition: .7s ease;
-        }
-        .formlogin2 a{
-            border: none;
-        
-            text-decoration: none;
-        color: black;
-        display:flex ;
-        justify-content: center; 
-         font-size: small;
-        margin-top:-5px;
-        transition: .7s ease;}
-        .flentgh{
-            padding: 20px;
-        }
-        .flentgh2{
-           margin-right: 20px;
-       }
-       .formlogin input[type="email"],input[type="password"]{
-        border: none;
-        border-bottom: 1px solid rgb(144, 130, 130);
-        background: transparent;
-        outline: none;
-        height: 10px;
-        transition: .7s ease;
-    }
-    .formlogin2 input[type="email"],input[type="password"]{
-       border: none;
-       border-bottom: 1px solid rgb(144, 130, 130);
-       background: transparent;
-       outline: none;
-       height: 10px;
-       transition: .7s ease;
-   }
-    h1{
-        font-size: 1.6em;
-    }
-    .formlogin input{
-        width: 100%;
-        margin-bottom: 60px;
-    }
-    .formlogin2 input{
-        width: 100%;
-        margin-bottom: 80px;
-    }
-    
-    .formlogin2 input[type="submit"]{
-        border: none;
-        height: 1.6em;
-        border-radius: 40px;
-        transition: .7s ease;
-    }
-  
-
