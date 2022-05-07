@@ -71,20 +71,19 @@ body {
 }
 
 .mk {
-    margin-left: 140px;
+    margin-left: 289px;
     border-radius: 35px;
-    width: 70%
+    width: 49%;
+    padding-left: 0%;
 }
 
 .nw {
-    width: 84%;
-    margin-left: 70px;
+    width: 70%;
+    margin-left: 145px;
     border-radius: 30px;
 }
 
-.endg,
-.blackP,
-.iron {
+.endgame {
     width: 70%;
     margin-left: 145px;
     border-radius: 30px;
