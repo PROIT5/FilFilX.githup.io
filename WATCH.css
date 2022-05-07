@@ -18,18 +18,9 @@ font-family:sans-serif
     display: inline;
     color: #e71d36;
 }
- .h1{
-    background-color: #0e1c36;
-    width: 100%;
-    display: flex;
-    z-index:999 ;
-    align-items: center;
-    padding: 10px 680px;
-    text-decoration: none;
-    text-transform: uppercase;
  
 
-}
+
  
 .watch{
     text-decoration: none;
@@ -175,4 +166,5 @@ padding-top: 100px;
 }
 .t :hover{
     color: aliceblue;
+
 }
