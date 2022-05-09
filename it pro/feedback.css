@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+
+*{
+    font-family: 'Poppins', sans-serif;
+margin: 0;
+padding:0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+
+
+}
+.feedback2{
+ margin-top: 112px;
+      width:40em;
+      height:20em;
+    
+      border-radius:5px;
+     
+            
+      
+      }
+     
+      
+      .privacy {
+
+
+        background-color: black;
+        color: #e71d36;
+           width: 100%;
+           display: flex;
+           z-index:999 ;
+           justify-content: space-between;
+           align-items: center;
+           padding: 10px 200px;
+          
+           text-transform: uppercase;
+       }
+       .phfee{
+        background: url(customer-feedback-cover.png) ;
+    
+       }
+       .footer3{
+    
+        padding-bottom: 84px;
+        }
+        .feedback2{
+        
+         
+           width:40em;
+           height:10em;
+           padding-left:40px ;
+          margin-bottom: 108px;
+           border-radius:6px;
+          
+           }
+          
+        
+           .sear{
+           
+         
+          padding-bottom: 400px;
+          padding-top: 90px;
+        
+          }
+          .feedback2 input[type="text"] {
+        
+           margin-top: 10px;
+           width:30em;
+           height:10em;
+           background-color:white;
+           border-radius: 3px;
+         
+           
+        }
+    .feedback2 input[type="submit"]{
+
+        padding-top: 5px;
+        margin-right: 90px;
+        border-radius:5px ;
+        
+    }
+    .feedback2 input[type="submit"]:hover{
+
+      color:black;
+      background-color: #e71d36;
+    }
+    .fe1{
+        padding-top: 25px;
+       font-size: 30px;
+        font-family: sans-serif;
+        color: rgb(0, 0, 0);
+    }
+ 
