@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <!-- Main style -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -90,184 +95,288 @@
               <h2>LATEST TRAILERS</h2>
               <p class="text-right"><a href="pages/see.html">See all</a></p>
             </div>
-            <div class="movies">
-              <div class="movie">
-                <div class="movie-image">
-                  <!-- <span class="play"><span class="name">X-MAN</span></span> -->
-                  <a href="pages/film.html"
-                    ><img src="images/movie1.jpg" alt=""
-                  /></a>
-                </div>
-                <div class="rating">
-                  <p>RATING</p>
-                  <div class="stars">
-                    <div class="stars-in"></div>
+            <div class="movies swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="movie swiper-slide">
+                  <div class="movie-image">
+                    <!-- <span class="play"><span class="name">X-MAN</span></span> -->
+                    <a href="pages/film.html"
+                      ><img src="images/movie1.jpg" alt=""
+                    /></a>
                   </div>
-                  <span class="comments">12</span>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">55</span>
+                  </div>
+                </div>
+                <div class="movie swiper-slide">
+                  <div class="movie-image">
+                    <span class="play"
+                      ><span class="name">SPIDER MAN 2</span></span
+                    >
+                    <a href="#"><img src="images/movie2.jpg" alt="" /></a>
+                  </div>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <span class="comments">12</span>
+                  </div>
+                </div>
+                <div class="movie swiper-slide">
+                  <div class="movie-image">
+                    <span class="play"
+                      ><span class="name">SPIDER MAN 3</span></span
+                    >
+                    <a href="#"><img src="images/movie9.jpg" alt="" /></a>
+                  </div>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">52</span>
+                  </div>
+                </div>
+
+                <div class="movie swiper-slide">
+                  <div class="movie-image">
+                    <span class="play"
+                      ><span class="name">SPIDER MAN 3</span></span
+                    >
+                    <a href="#"><img src="images/movie3.jpg" alt="" /></a>
+                  </div>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">32</span>
+                  </div>
+                </div>
+                <div class="movie swiper-slide">
+                  <div class="movie-image">
+                    <span class="play"><span class="name">VALKYRIE</span></span>
+                    <a href="#"><img src="images/movie4.jpg" alt="" /></a>
+                  </div>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">12</span>
+                  </div>
+                </div>
+                <div class="movie swiper-slide">
+                  <div class="movie-image">
+                    <span class="play"
+                      ><span class="name">GLADIATOR</span></span
+                    >
+                    <a href="#"><img src="images/movie5.jpg" alt="" /></a>
+                  </div>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">82</span>
+                  </div>
+                </div>
+                <div class="movie last swiper-slide">
+                  <div class="movie-image">
+                    <span class="play"><span class="name">ICE AGE</span></span>
+                    <a href="#"><img src="images/movie6.jpg" alt="" /></a>
+                  </div>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">92</span>
+                  </div>
                 </div>
               </div>
-              <div class="movie">
-                <div class="movie-image">
-                  <span class="play"
-                    ><span class="name">SPIDER MAN 2</span></span
-                  >
-                  <a href="#"><img src="images/movie2.jpg" alt="" /></a>
-                </div>
-                <div class="rating">
-                  <p>RATING</p>
-                  <div class="stars">
-                    <div class="stars-in"></div>
-                  </div>
-                  <span class="comments">12</span>
-                </div>
-              </div>
-              <div class="movie">
-                <div class="movie-image">
-                  <span class="play"
-                    ><span class="name">SPIDER MAN 3</span></span
-                  >
-                  <a href="#"><img src="images/movie3.jpg" alt="" /></a>
-                </div>
-                <div class="rating">
-                  <p>RATING</p>
-                  <div class="stars">
-                    <div class="stars-in"></div>
-                  </div>
-                  <span class="comments">12</span>
-                </div>
-              </div>
-              <div class="movie">
-                <div class="movie-image">
-                  <span class="play"><span class="name">VALKYRIE</span></span>
-                  <a href="#"><img src="images/movie4.jpg" alt="" /></a>
-                </div>
-                <div class="rating">
-                  <p>RATING</p>
-                  <div class="stars">
-                    <div class="stars-in"></div>
-                  </div>
-                  <span class="comments">12</span>
-                </div>
-              </div>
-              <div class="movie">
-                <div class="movie-image">
-                  <span class="play"><span class="name">GLADIATOR</span></span>
-                  <a href="#"><img src="images/movie5.jpg" alt="" /></a>
-                </div>
-                <div class="rating">
-                  <p>RATING</p>
-                  <div class="stars">
-                    <div class="stars-in"></div>
-                  </div>
-                  <span class="comments">12</span>
-                </div>
-              </div>
-              <div class="movie last">
-                <div class="movie-image">
-                  <span class="play"><span class="name">ICE AGE</span></span>
-                  <a href="#"><img src="images/movie6.jpg" alt="" /></a>
-                </div>
-                <div class="rating">
-                  <p>RATING</p>
-                  <div class="stars">
-                    <div class="stars-in"></div>
-                  </div>
-                  <span class="comments">12</span>
-                </div>
-              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
             </div>
+
             <div class="cl">&nbsp;</div>
           </div>
+
           <div class="box" id="romance">
             <div class="head">
               <h2>TOP RATED</h2>
               <p class="text-right"><a href="pages/see.html">See all</a></p>
             </div>
-            <div class="movies">
-              <div class="movie">
-                <div class="movie-image">
-                  <span class="play"
-                    ><span class="name">TRANSFORMERS</span></span
-                  >
-                  <a href="#"><img src="images/movie7.jpg" alt="" /></a>
-                </div>
-                <div class="rating">
-                  <p>RATING</p>
-                  <div class="stars">
-                    <div class="stars-in"></div>
+            <div class="movies swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="movie swiper-slide">
+                  <div class="movie-image">
+                    <!-- <span class="play"><span class="name">X-MAN</span></span> -->
+                    <a href="pages/film.html"
+                      ><img src="images/movie1.jpg" alt=""
+                    /></a>
                   </div>
-                  <span class="comments">12</span>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">12</span>
+                  </div>
+                </div>
+                <div class="movie swiper-slide">
+                  <div class="movie-image">
+                    <span class="play"
+                      ><span class="name">SPIDER MAN 2</span></span
+                    >
+                    <a href="#"><img src="images/movie7.jpg" alt="" /></a>
+                  </div>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">32</span>
+                  </div>
+                </div>
+                <div class="movie swiper-slide">
+                  <div class="movie-image">
+                    <span class="play"
+                      ><span class="name">SPIDER MAN 3</span></span
+                    >
+                    <a href="#"><img src="images/movie8.jpg" alt="" /></a>
+                  </div>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">62</span>
+                  </div>
+                </div>
+
+                <div class="movie swiper-slide">
+                  <div class="movie-image">
+                    <span class="play"
+                      ><span class="name">SPIDER MAN 3</span></span
+                    >
+                    <a href="#"><img src="images/movie9.jpg" alt="" /></a>
+                  </div>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <span class="comments">23</span>
+                  </div>
+                </div>
+                <div class="movie swiper-slide">
+                  <div class="movie-image">
+                    <span class="play"><span class="name">VALKYRIE</span></span>
+                    <a href="#"><img src="images/movie10.jpg" alt="" /></a>
+                  </div>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">22</span>
+                  </div>
+                </div>
+                <div class="movie swiper-slide">
+                  <div class="movie-image">
+                    <span class="play"
+                      ><span class="name">GLADIATOR</span></span
+                    >
+                    <a href="#"><img src="images/movie11.jpg" alt="" /></a>
+                  </div>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">32</span>
+                  </div>
+                </div>
+                <div class="movie last swiper-slide">
+                  <div class="movie-image">
+                    <span class="play"><span class="name">ICE AGE</span></span>
+                    <a href="#"><img src="images/movie12.jpg" alt="" /></a>
+                  </div>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">43</span>
+                  </div>
                 </div>
               </div>
-              <div class="movie">
-                <div class="movie-image">
-                  <span class="play"><span class="name">MAGNETO</span></span>
-                  <a href="#"><img src="images/movie8.jpg" alt="" /></a>
-                </div>
-                <div class="rating">
-                  <p>RATING</p>
-                  <div class="stars">
-                    <div class="stars-in"></div>
-                  </div>
-                  <span class="comments">12</span>
-                </div>
-              </div>
-              <div class="movie">
-                <div class="movie-image">
-                  <span class="play"
-                    ><span class="name">KUNG FU PANDA</span></span
-                  >
-                  <a href="#"><img src="images/movie9.jpg" alt="" /></a>
-                </div>
-                <div class="rating">
-                  <p>RATING</p>
-                  <div class="stars">
-                    <div class="stars-in"></div>
-                  </div>
-                  <span class="comments">12</span>
-                </div>
-              </div>
-              <div class="movie">
-                <div class="movie-image">
-                  <span class="play"><span class="name">EAGLE EYE</span></span>
-                  <a href="#"><img src="images/movie10.jpg" alt="" /></a>
-                </div>
-                <div class="rating">
-                  <p>RATING</p>
-                  <div class="stars">
-                    <div class="stars-in"></div>
-                  </div>
-                  <span class="comments">12</span>
-                </div>
-              </div>
-              <div class="movie">
-                <div class="movie-image">
-                  <span class="play"><span class="name">NARNIA</span></span>
-                  <a href="#"><img src="images/movie11.jpg" alt="" /></a>
-                </div>
-                <div class="rating">
-                  <p>RATING</p>
-                  <div class="stars">
-                    <div class="stars-in"></div>
-                  </div>
-                  <span class="comments">12</span>
-                </div>
-              </div>
-              <div class="movie last">
-                <div class="movie-image">
-                  <span class="play"
-                    ><span class="name">ANGELS &amp; DEMONS</span></span
-                  >
-                  <a href="#"><img src="images/movie12.jpg" alt="" /></a>
-                </div>
-                <div class="rating">
-                  <p>RATING</p>
-                  <div class="stars">
-                    <div class="stars-in"></div>
-                  </div>
-                  <span class="comments">12</span>
-                </div>
-              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
             </div>
 
             <div class="cl">&nbsp;</div>
@@ -277,122 +386,187 @@
               <h2>MOST COMMENTED</h2>
               <p class="text-right"><a href="pages/see.html">See all</a></p>
             </div>
-            <div class="movies">
-              <div class="movie">
-                <div class="movie-image">
-                  <span class="play"><span class="name">HOUSE</span></span>
-                  <a href="#"><img src="images/movie13.jpg" alt="" /></a>
-                </div>
-                <div class="rating">
-                  <p>RATING</p>
-                  <div class="stars">
-                    <div class="stars-in"></div>
+            <div class="movies swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="movie swiper-slide">
+                  <div class="movie-image">
+                    <!-- <span class="play"><span class="name">X-MAN</span></span> -->
+                    <a href="pages/film.html"
+                      ><img src="images/movie13.jpg" alt=""
+                    /></a>
                   </div>
-                  <span class="comments">12</span>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">19</span>
+                  </div>
+                </div>
+                <div class="movie swiper-slide">
+                  <div class="movie-image">
+                    <span class="play"
+                      ><span class="name">SPIDER MAN 2</span></span
+                    >
+                    <a href="#"><img src="images/movie14.jpg" alt="" /></a>
+                  </div>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">12</span>
+                  </div>
+                </div>
+                <div class="movie swiper-slide">
+                  <div class="movie-image">
+                    <span class="play"
+                      ><span class="name">SPIDER MAN 3</span></span
+                    >
+                    <a href="#"><img src="images/movie15.jpg" alt="" /></a>
+                  </div>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">16</span>
+                  </div>
+                </div>
+
+                <div class="movie swiper-slide">
+                  <div class="movie-image">
+                    <span class="play"
+                      ><span class="name">SPIDER MAN 3</span></span
+                    >
+                    <a href="#"><img src="images/movie16.jpg" alt="" /></a>
+                  </div>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">15</span>
+                  </div>
+                </div>
+                <div class="movie swiper-slide">
+                  <div class="movie-image">
+                    <span class="play"><span class="name">VALKYRIE</span></span>
+                    <a href="#"><img src="images/movie17.jpg" alt="" /></a>
+                  </div>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">14</span>
+                  </div>
+                </div>
+                <div class="movie swiper-slide">
+                  <div class="movie-image">
+                    <span class="play"
+                      ><span class="name">GLADIATOR</span></span
+                    >
+                    <a href="#"><img src="images/movie18.jpg" alt="" /></a>
+                  </div>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">22</span>
+                  </div>
+                </div>
+                <div class="movie last swiper-slide">
+                  <div class="movie-image">
+                    <span class="play"><span class="name">ICE AGE</span></span>
+                    <a href="#"><img src="images/movie6.jpg" alt="" /></a>
+                  </div>
+                  <div class="rating">
+                    <p>RATING:</p>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="comments">42</span>
+                  </div>
                 </div>
               </div>
-              <div class="movie">
-                <div class="movie-image">
-                  <span class="play"><span class="name">VACANCY</span></span>
-                  <a href="#"><img src="images/movie14.jpg" alt="" /></a>
-                </div>
-                <div class="rating">
-                  <p>RATING</p>
-                  <div class="stars">
-                    <div class="stars-in"></div>
-                  </div>
-                  <span class="comments">12</span>
-                </div>
-              </div>
-              <div class="movie">
-                <div class="movie-image">
-                  <span class="play"><span class="name">MIRRORS</span></span>
-                  <a href="#"><img src="images/movie15.jpg" alt="" /></a>
-                </div>
-                <div class="rating">
-                  <p>RATING</p>
-                  <div class="stars">
-                    <div class="stars-in"></div>
-                  </div>
-                  <span class="comments">12</span>
-                </div>
-              </div>
-              <div class="movie">
-                <div class="movie-image">
-                  <span class="play"
-                    ><span class="name">THE KINGDOM</span></span
-                  >
-                  <a href="#"><img src="images/movie16.jpg" alt="" /></a>
-                </div>
-                <div class="rating">
-                  <p>RATING</p>
-                  <div class="stars">
-                    <div class="stars-in"></div>
-                  </div>
-                  <span class="comments">12</span>
-                </div>
-              </div>
-              <div class="movie">
-                <div class="movie-image">
-                  <span class="play"><span class="name">MOTIVES</span></span>
-                  <a href="#"><img src="images/movie17.jpg" alt="" /></a>
-                </div>
-                <div class="rating">
-                  <p>RATING</p>
-                  <div class="stars">
-                    <div class="stars-in"></div>
-                  </div>
-                  <span class="comments">12</span>
-                </div>
-              </div>
-              <div class="movie last">
-                <div class="movie-image">
-                  <span class="play"
-                    ><span class="name">THE PRESTIGE</span></span
-                  >
-                  <a href="#"><img src="images/movie18.jpg" alt="" /></a>
-                </div>
-                <div class="rating">
-                  <p>RATING</p>
-                  <div class="stars">
-                    <div class="stars-in"></div>
-                  </div>
-                  <span class="comments">12</span>
-                </div>
-              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
             </div>
             <div class="cl">&nbsp;</div>
           </div>
         </div>
       </div>
       <footer>
-        <div class="container" id="contact">
-          <img src="images/services.jpg" alt="" />
-          <div class="left">
-            <h2>Links</h2>
-            <ul>
-              <li><a href="https:/www.google.com" class="active">Home</a></li>
-              <li><a href="#">Movie</a></li>
-              <li><a href="#">Comming Soon</a></li>
-              <li><a href="#">Contact</a></li>
-              <li class="sign"><a href="#">Sign in</a></li>
-            </ul>
+        <div class="container">
+          <div class="logo">
+            <a href="main.html">FIL<span>FLIX</span></a>
           </div>
-          <div class="right">
-            <form action="">
-              <label for="sub">Subscribe</label>
-              <input type="email" value="Enter Email Here" class="sub" />
-              <input type="submit" value="GO!" class="go" />
-            </form>
+          <p>We Are Social</p>
+          <div class="social-icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fas fa-home"></i>
+            <i class="fab fa-linkedin"></i>
           </div>
+          <p class="copyright">
+            &copy; 2022 <span>FILFLIX</span> All Right Reserved By
+            <span> YOUSSEF MOSTAFA</span>
+          </p>
         </div>
       </footer>
     </div>
-    <!-- End Content  -->
-    <!-- Start Contact -->
-    <!-- End Contact -->
 
-    <!-- Script -->
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        slidesPerGroup: 5,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
     <script src="js/jquery-1.4.2.min.js"></script>
     <script src="js/main.js"></script>
   </body>
