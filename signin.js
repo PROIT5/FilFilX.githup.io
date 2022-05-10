@@ -1,15 +1,15 @@
 const email =
-    document.getElementsByClassName('email')
+    document.getElementById('email')
 
 const password =
-    document.getElementsByClassName('password')
+    document.getElementById('password')
 
 
 const form =
-    document.getElementsById('form')
+    document.getElementById('form')
 
 const errorElement =
-    document.getElementsById('error')
+    document.getElementById('error')
 
 form.addEventListener('submit', (e) => {
 
