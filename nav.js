@@ -1,13 +1,8 @@
-
-let naci=document.querySelector('.naci');
-let clo=document.querySelector('.close');
-let contio=document.querySelector('contio');
-
-
-clo.onclick = function(){
-
-contio.classlist.add('hide');
-clo.classList.add('hide');
-naci.classList.remove('hide');
-
+let btnopen=document.getElementById('open');
+let btclose=document.getElementById('close');
+let btnav=document.querySelector('.navbarjs');
+btnclose.onclick=function(){
+    btnav.classlist.add('hide');
+    btnclose.classlist.add('hide'); 
+    btnopen.classlist.remove('hide');
 }

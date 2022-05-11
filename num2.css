@@ -927,3 +927,53 @@ P2:hover{
        padding-top: 60px;
        margin-top: 70px;
    }
+
+   .navbar{
+       width:7em;
+       height: 20em;
+      background-color: #c92437;
+      margin-left: 77.92em;
+      display: ease;
+      border-radius: .6em;
+    
+
+   }
+   .navbar p{
+    padding: .8em;
+    text-decoration: none;
+    color: #f9fbf2;
+
+}
+.navbar a{
+    
+    text-decoration: none;
+
+}
+.navbar p:hover{
+    
+    background-color: #191b1c;
+  
+}
+button{
+    background-color:#c21d30;
+    color: #f9fbf2;
+    border-radius: 1em;
+    padding:.7em;
+    transition: .5s ease;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+.cls{
+    background-color: black;
+    color: #f9fbf2;
+    border-radius: 1.3em;
+    padding:.6em;
+    margin-left: 2em;
+    transition: .5s ease;
+    margin-top: .1em;
+}
+.cls:hover{
+    transform:scale(1.2) ;
+}
