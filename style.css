@@ -1,79 +1,169 @@
-body{
-    background-color: lightslategray;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+*{
+    font-family: 'Poppins', sans-serif;
+margin: 0;
+padding:0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+
+
+
+    background-color:rgb(8, 8, 8);
 }
+header {
+    padding:20% auto;
+    margin: 2% auto;
+    background-color: rgb(14, 14, 14);
 
-.start{
-    background-color:black;
-width:100% ;
-color: red;
-padding: 25px 0px;
-text-align: center;
-letter-spacing: 1.5px;
-text-transform: uppercase;
-}
+   
+    }
+    .horror {
+        text-decoration: none;
+        font-size: 1.9em ;
+        color: #e71d36;
+        
+    }
+  
+    .content2{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .categories {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+        transition: .7s ease;
+    }
+    .it{
+        background-color: #f9fbf2;
+        width: 21.2em;
+        height: 1em;
+        margin-left: 30px;
+        margin-bottom : 200px;
+       padding-bottom: 50px;
+        border-radius: 30px;
+        
+      
+       
+        
 
-.icons{
-    color:blue;
-font-size: 1.7em;
-float:right;
-padding:5px;
-border: 3px solid black;
-display: flex;
-flex-direction: column;
-background-color: wheat;
-}
+    }
+    .image2 img { 
+        width: 100%;
+        border-radius:30px;
+    
+        }
+        .itcat a{
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 90px;
+            color:white;
+                }
 
-.wsan{
-    letter-spacing: 1.5px;
-    font-style: italic;
-    font-weight: 900;
-    font-size: 2em;
-    padding-left: 20px;
-}
 
-.SA{
-    letter-spacing: 1.5px;
-    font-size: 1.5em;
-    display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: 900;
-    width: 100%;
-    padding-left:20px ;
-}
 
-.descript{
-    letter-spacing: 1.5px;
-    font-size: 1.3em;
-    font-weight: bold;
-    display: inline-block;
-    background-color:beige ;
-    border: 3px solid grey;
-    padding: 5px;
-    font-style: italic;
-}
+        .siccin3{
+                    background-color: #f9fbf2;
+                    width: 21.2em;
+                    height: 1em;
+                    margin-left: 30px;
+                    margin-bottom : 200px;
+                   padding-bottom: 50px;
+                    border-radius: 30px;
+                    
+                  
+                   
+                    
+            
+          }
+ .image3 img { 
+ width: 100%;
+ border-radius:30px;} 
+ .siccin3cat a{
+                        text-decoration: none;
+                        display: flex;
+                        justify-content: center;
+                        padding-bottom: 90px;
+                        color:white;
+                            }
 
-.vid{padding: 30px 100px;}
 
-.pad{padding-left: 20px;
-}
-
-a{color:#06c;}
-
-a:hover{color: red;}
-
-.end{padding: 25px 0px;
-text-align: center;
-background-color: black;
-color: blue;
-}
-
-.foot{color: red;}
-
-.line{border-color: white;
-margin-bottom: 25px;
-margin-top: 25px;
-border-style: inset;
-border-width: 1px;
-unicode-bidi: isolate;
-}
+                            
+                            .siccin2{
+                                background-color: #f9fbf2;
+                                width: 21.2em;
+                                height: 1em;
+                                margin-left: 30px;
+                                margin-bottom : 200px;
+                               padding-bottom: 50px;
+                                border-radius: 30px;
+                                
+                              
+                               
+                                
+                        
+                            }
+                            .image5 img { 
+                                width: 100%;
+                                border-radius:30px;
+                            
+                                }
+                                .siccin2cat a{
+                                    text-decoration: none;
+                                    display: flex;
+                                    justify-content: center;
+                                    padding-bottom: 90px;
+                                    color:white;
+                                        }
+                                        .action{
+                                            background-color: #f9fbf2;
+                                            width: 21.2em;
+                                            height: 1em;
+                                            margin-left: 30px;
+                                            margin-bottom : 200px;
+                                           padding-bottom: 50px;
+                                            border-radius: 30px;
+                                            
+                                          
+                                           
+                                            
+                                    
+                                        }
+                                        .image6 img { 
+                                            width: 100%;
+                                            border-radius:30px;
+                                        
+                                            }
+                                            .actioncat a{
+                                                text-decoration: none;
+                                                display: flex;
+                                                justify-content: center;
+                                                padding-bottom: 90px;
+                                                color:white;
+                                                    }
+                                                    .posterit{
+                                                       
+                                                        width: 40%;
+                                                        border-radius:30px;
+                                                        margin-left: 80%;
+          
+                                                        
+                                                    }
+                                                    .postersiccin2{
+                                                        width: 40%;
+                                                        border-radius:30px;
+                                                        margin-left: 70%;
+                                                    }
+                                                    .postersiccin3{
+                                                         width: 20%;
+                                                        border-radius:30px;
+                                                        margin-left: 60%;
+                                                    }
+                                                    
+                                        
+                                                    
+                                    
