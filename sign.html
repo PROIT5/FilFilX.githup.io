@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FILFLIX</title>
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- Main style -->
+    <link rel="stylesheet" href="../css/sign.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Koulen&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body" class="light-mode">
+    <nav style="top: 0">
+      <div class="container">
+        <div class="logo">
+          <a href="../main.html">FIL<span>FLIX</span></a>
+        </div>
+        <div class="links">
+          <i class="fas fa-bars toggle-menu" onclick="toggle(this)"></i>
+          <ul>
+            <li><a href="../main.html" class="active">Home</a></li>
+            <li class="menu">
+              <a href="#">Movie</a>
+              <ul class="subMenu">
+                <li><a href="../main.html#action">Action</a></li>
+                <li><a href="../main.html#romance">Romance</a></li>
+                <li><a href="../main.html#drama">Drama</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Comming Soon</a></li>
+            <li><a href="../main.html#contact">Contact</a></li>
+            <li class="sign"><a href="sign.html">Sign in</a></li>
+          </ul>
+          <!--Start Them website -->
+          <button
+            type="button"
+            name="dark_light"
+            onclick="toggleDarkLight()"
+            title="Toggle dark/light mode"
+          >
+            <i class="fa fa-moon" onclick="dark_light(this)"></i>
+          </button>
+          <!-- End Them Website  -->
+        </div>
+      </div>
+      <div id="login-box">
+        <div class="left">
+          <h1>Sign up</h1>
+
+          <input type="text" name="username" placeholder="Username" />
+          <input type="text" name="email" placeholder="E-mail" />
+          <input type="password" name="password" placeholder="Password" />
+          <input
+            type="password"
+            name="password2"
+            placeholder="Retype password"
+          />
+
+          <input type="submit" name="signup_submit" value="Sign me up" />
+        </div>
+
+        <div class="right">
+          <span class="loginwith">Sign in with<br />social network</span>
+
+          <button class="social-signin facebook">Log in with facebook</button>
+          <button class="social-signin twitter">Log in with Twitter</button>
+          <button class="social-signin google">Log in with Google+</button>
+        </div>
+        <div class="or">OR</div>
+      </div>
+    </nav>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
