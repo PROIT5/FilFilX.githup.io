@@ -1,148 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    
-*{
-    font-family: 'Poppins', sans-serif;
-margin: 0;
-padding:0;
-box-sizing: border-box;
-scroll-behavior: smooth;
-
-
-
-    background-color:rgb(8, 8, 8);
+body{
+    background-color: lightslategray;
 }
-header {
-    padding:20% auto;
-    margin: 2% auto;
-    background-color: rgb(14, 14, 14);
 
-   
-    }
-    .navii {
-        text-decoration: none;
-        font-size: 1.9em ;
-        color: #e71d36;
-        
-    }
-  
-    .content2{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .categories {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 30px;
-        transition: .7s ease;
-    }
-    .animation{
-        background-color: #f9fbf2;
-        width: 21.2em;
-        height: 1em;
-        margin-left: 30px;
-        margin-bottom : 200px;
-       padding-bottom: 50px;
-        border-radius: 30px;
-        
-      
-       
-        
+.start{
+    background-color:black;
+width:100% ;
+color: red;
+padding: 25px 0px;
+text-align: center;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+}
 
-    }
-    .image2 img { 
-        width: 100%;
-        border-radius:30px;
-    
-        }
-        .anicat a{
-            text-decoration: none;
-            display: flex;
-            justify-content: center;
-            padding-bottom: 90px;
-            color:white;
-                }
+.icons{
+    color:blue;
+font-size: 1.7em;
+float:right;
+padding:5px;
+border: 3px solid black;
+display: flex;
+flex-direction: column;
+background-color: wheat;
+}
 
+.wsan{
+    letter-spacing: 1.5px;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2em;
+    padding-left: 20px;
+}
 
+.SA{
+    letter-spacing: 1.5px;
+    font-size: 1.5em;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    width: 100%;
+    padding-left:20px ;
+}
 
-        .war{
-                    background-color: #f9fbf2;
-                    width: 21.2em;
-                    height: 1em;
-                    margin-left: 30px;
-                    margin-bottom : 200px;
-                   padding-bottom: 50px;
-                    border-radius: 30px;
-                    
-                  
-                   
-                    
-            
-          }
- .image3 img { 
- width: 100%;
- border-radius:30px;} 
- .warcat a{
-                        text-decoration: none;
-                        display: flex;
-                        justify-content: center;
-                        padding-bottom: 90px;
-                        color:white;
-                            }
+.descript{
+    letter-spacing: 1.5px;
+    font-size: 1.3em;
+    font-weight: bold;
+    display: inline-block;
+    background-color:beige ;
+    border: 3px solid grey;
+    padding: 5px;
+    font-style: italic;
+}
 
+.vid{padding: 30px 100px;}
 
-                            
-                            .sh{
-                                background-color: #f9fbf2;
-                                width: 21.2em;
-                                height: 1em;
-                                margin-left: 30px;
-                                margin-bottom : 200px;
-                               padding-bottom: 50px;
-                                border-radius: 30px;
-                                
-                              
-                               
-                                
-                        
-                            }
-                            .image5 img { 
-                                width: 100%;
-                                border-radius:30px;
-                            
-                                }
-                                .shcat a{
-                                    text-decoration: none;
-                                    display: flex;
-                                    justify-content: center;
-                                    padding-bottom: 90px;
-                                    color:white;
-                                        }
-                                        .action{
-                                            background-color: #f9fbf2;
-                                            width: 21.2em;
-                                            height: 1em;
-                                            margin-left: 30px;
-                                            margin-bottom : 200px;
-                                           padding-bottom: 50px;
-                                            border-radius: 30px;
-                                            
-                                          
-                                           
-                                            
-                                    
-                                        }
-                                        .image6 img { 
-                                            width: 100%;
-                                            border-radius:30px;
-                                        
-                                            }
-                                            .actioncat a{
-                                                text-decoration: none;
-                                                display: flex;
-                                                justify-content: center;
-                                                padding-bottom: 90px;
-                                                color:white;
-                                                    }
-                                    
+.pad{padding-left: 20px;
+}
+
+a{color:#06c;}
+
+a:hover{color: red;}
+
+.end{padding: 25px 0px;
+text-align: center;
+background-color: black;
+color: blue;
+}
+
+.foot{color: red;}
+
+.line{border-color: white;
+margin-bottom: 25px;
+margin-top: 25px;
+border-style: inset;
+border-width: 1px;
+unicode-bidi: isolate;
+}
