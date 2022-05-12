@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>X-MAN</title>
+      <!-- Favicon -->
+      <link
+        rel="shortcut icon"
+        href="../images/favicon.ico"
+        type="image/x-icon"
+      />
+      <!-- Font Awsome -->
+      <link rel="stylesheet" href="../css/all.min.css" />
+      <!-- normalize -->
+      <link rel="stylesheet" href="../css/normalize.css" />
+      <!-- Main style -->
+      <!-- <link rel="stylesheet" href="../css/style.css" /> -->
+      <link rel="stylesheet" href="../css/style.css" />
+      <link rel="stylesheet" href="../css/film.css" />
+
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Koulen&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+      />
+    </head>
+  </head>
+  <body id="body" class="light-mode">
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <a href="../main.html">FIL<span>FLIX</span></a>
+        </div>
+        <div class="links">
+          <i class="fas fa-bars toggle-menu" onclick="toggle(this)"></i>
+          <ul>
+            <li><a href="../main.html" class="active">Home</a></li>
+            <li class="menu">
+              <a href="#">Movie</a>
+              <ul class="subMenu">
+                <li><a href="../main.html#action">Action</a></li>
+                <li><a href="../main.html#romance">Romance</a></li>
+                <li><a href="../main.html#drama">Drama</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Comming Soon</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="sign"><a href="sign.html">Sign in</a></li>
+          </ul>
+          <!--Start Them website -->
+          <button
+            type="button"
+            name="dark_light"
+            onclick="toggleDarkLight()"
+            title="Toggle dark/light mode"
+          >
+            <i class="fa fa-moon" onclick="dark_light(this)"></i>
+          </button>
+          <!-- End Them Website  -->
+        </div>
+      </div>
+      <section>
+        <div class="container">
+          <div class="info">
+            <div class="table-container">
+              <div class="image-table">
+                <img src="../images/movie1.jpg" alt="" />
+                <button type="button" class="button">
+                  <span class="btn-text"> Watch And Download </span>
+                  <span class="btn-icon">
+                    <i class="fa fa-download"></i>
+                  </span>
+                </button>
+              </div>
+              <table class="movieTable">
+                <thead>
+                  <th colspan="2"><h1>X-MAN (<span>2011</span>)</h1></th>
+                </thead>
+                <tr>
+                  <td>language</td>
+                  <td>english</td>
+                </tr>
+                <tr>
+                  <td>country</td>
+                  <td>amirica</td>
+                </tr>
+                <tr>
+                  <td>type</td>
+                  <td>action</td>
+                </tr>
+                <tr>
+                  <td>rate</td>
+                  <td>
+                    <i class="fas fa-star"></i> 7.5 from 10 &nbsp; • &nbsp;
+                    91,224 vote
+                  </td>
+                </tr>
+                <tr>
+                  <td>Duration</td>
+                  <td>01:22:57</td>
+                </tr>
+                <tr>
+                  <td>Quality</td>
+                  <td>720p &nbsp; • &nbsp; Full hd</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </nav>
+    <section class="story">
+      <div class="container">
+        <div class="st-head">
+          <h2>Story</h2>
+        </div>
+        <div class="st-para">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Perspiciatis, tempora? Rem quasi voluptas dolorem impedit laboriosam
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="watch-trailler">
+      <div class="container">
+        <div class="head"><h3>watch trailler</h3></div>
+        <div class="video">
+          <video
+            controls
+            width="400px"
+            height="300px"
+            poster="../images/movie1.jpg"
+          >
+            <source src="../video/video.mp4" type="video/mp4" />
+            <source src="../video/video.ogg" type="video/oog" />
+            Your browser dosen't support video tag
+            <track
+              src="my-file-en.vtt"
+              kind="subtitles"
+              srclang="en"
+              label="English"
+            />
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <div class="cast">
+      <div class="container">
+        <div class="cast-ch">
+          <div class="ch1">
+            <img src="../images/ch1.jpg" alt="ch1" />
+            <div class="info">
+              <h4>Movie star name</h4>
+              <p>X-MAN</p>
+            </div>
+          </div>
+          <div class="ch1">
+            <img src="../images/ch2.jpg" alt="ch1" />
+            <div class="info">
+              <h4>Movie star name</h4>
+              <p>X-MAN</p>
+            </div>
+          </div>
+          <div class="ch1">
+            <img src="../images/ch3.jpg" alt="ch1" />
+            <div class="info">
+              <h4>Movie star name</h4>
+              <p>X-MAN</p>
+            </div>
+          </div>
+          <div class="ch1">
+            <img src="../images/ch5.jpg" alt="ch1" />
+            <div class="info">
+              <h4>Movie star name</h4>
+              <p>X-MAN</p>
+            </div>
+          </div>
+          <div class="ch1">
+            <img src="../images/ch6.jpg" alt="ch1" />
+            <div class="info">
+              <h4>Movie star name</h4>
+              <p>X-MAN</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="watch-movie">
+      <div class="container">
+        <div class="watch"><h2>Watch</h2></div>
+        <div class="movie">
+          <video
+            src="../video/video.mp4"
+            controls
+            poster="../images/poster.jpg"
+          >
+            <track
+              src="my-file-en.vtt"
+              kind="subtitles"
+              srclang="en"
+              label="English"
+            />
+          </video>
+        </div>
+      </div>
+    </div>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
