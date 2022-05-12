@@ -1,5 +1,10 @@
 <html>
   <style>
+    
+      #more {
+    display: none;
+  }
+    
     #f{
       color:rgb(173, 0, 0);
       /* background-color: rgb(0, 0, 0); */
@@ -146,8 +151,26 @@
       <source src="Coco Trailer (2017) _ 'Find Your Voice' _ Movieclips Trailers.mp4" type="video/mp4">
       </video><br>
     <h2 id="tr">DESCRIPTION</h2><br><br>
-    <p><h2 id="d">Miguel, a 12-year-old boy who has a great passion for music even though his family has banned it for generations, decides to visit the place where his favorite musician (Ernesto de la Cruz) rests on Mexico's annual Day of the Dead, and ends up In the Land of the Dead, he meets his deceased relatives and learns his family's secrets.</h></p><br>
-    <p><h2 id="tr">FILM</h2></p>
+    <p><h2 id="d">Miguel, a 12-year-old boy who has a great passion for music even though his family has banned it for generations,<span id="dots">...</span><span id="more"> decides to visit the place where his favorite musician (Ernesto de la Cruz) rests on Mexico's annual Day of the Dead, and ends up In the Land of the Dead, he meets his deceased relatives and learns his family's secrets.</span></h></p><br>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+      <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        </script> 
+  <p><h2 id="tr">FILM</h2></p>
     <video id="t" controls="" width="850" height="350" >
         <source src="Coco Trailer (2017) _ 'Find Your Voice' _ Movieclips Trailers.mp4" type="video/mp4">
     </video><br>
